@@ -1,0 +1,25 @@
+.topup-div {
+  /* background-color: #c4f1f9; */
+  width: 70vw;
+  height: auto;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /* overflow: auto; */
+  flex-wrap: wrap;
+}
+
+.btn {
+  width: 100%;
+  background-color: #f0fff4;
+}
+
+.topup:hover {
+  color: black;
+}
+
+.hide {
+  display: none;
+}

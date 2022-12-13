@@ -1,0 +1,29 @@
+.edit-profile-div {
+  width: 95%;
+  height: 80vh;
+  background-color: rgba(99, 98, 99, 0.699);
+  margin: auto;
+  display: flex;
+}
+
+.edit-profile-child {
+  width: 90%;
+  height: 70vh;
+  margin: auto;
+  /* background-color: aquamarine; */
+}
+
+.edit-profile-img {
+  /* margin: auto; */
+  margin-left: 8%;
+}
+
+.settings {
+  width: 20px;
+  height: 10px;
+  background: transparent;
+}
+
+.settings:hover {
+  color: rgba(0, 0, 0, 0.507);
+}

@@ -1,0 +1,14 @@
+.Navbar-Profile {
+  width: 32px;
+  height: 32px;
+}
+
+.Navbar-Profile,
+.Navbar-Cart {
+  transition: all 0.5s;
+}
+
+.Navbar-Profile:hover,
+.Navbar-Cart:hover {
+  opacity: 0.1;
+}

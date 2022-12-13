@@ -1,0 +1,15 @@
+.Explore {
+  display: flex;
+  flex-direction: column;
+}
+
+.Explore-Layer1 {
+  padding-left: 5%;
+}
+
+.Products {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

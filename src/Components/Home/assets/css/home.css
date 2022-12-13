@@ -1,0 +1,237 @@
+.Home-Child {
+  display: flex;
+  flex-direction: row;
+}
+
+.Products-Header {
+  padding-left: 5%;
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  overflow: visible;
+}
+
+.Products-Header h2 {
+  color: #386641;
+}
+
+.Products-Cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.Home {
+  /*	width: 100%;*/
+  display: flex;
+  flex-direction: column;
+}
+
+.Home-Layer1 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+  background: linear-gradient(to bottom right, #f6fff3, #ffffff);
+}
+
+.Home-Header1 {
+  margin-bottom: 0px;
+}
+
+.Home-Header2 {
+  font-size: 10em;
+  margin-top: 0px;
+  margin-bottom: 1%;
+}
+
+.Home-Description {
+  margin-top: 0px;
+  margin-bottom: 10%;
+  padding-left: 0.5%;
+}
+
+.Home-Header1,
+.Home-Header2 {
+  font-size: 4em;
+}
+
+.Home-Explorer {
+  width: 25%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border: 2px solid #a7c957;
+  background-color: transparent;
+  transition: all 0.5s;
+}
+
+.Home-Explorer:hover {
+  color: white;
+  background-color: #a7c957;
+}
+
+.Home-Layer2 {
+  width: 50%;
+  background-size: cover;
+  transform: scaleX(-1);
+}
+
+.Home-Layer2 img {
+  width: 100%;
+}
+
+.Label {
+  height: 20vh;
+  background-color: #386641;
+  transform: translateY(-4px);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Label h2 {
+  color: #a7c957;
+}
+
+.PlantLabel {
+  width: 20%;
+  align-self: flex-end;
+}
+
+.Card {
+  width: 20vw;
+  height: 35vh;
+  transition: all 1s;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 8%;
+  cursor: pointer;
+  padding: 20px;
+}
+
+.Test {
+  width: 50%;
+  height: 60%;
+  padding: 5px;
+  background-color: #eef4ed;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Card-Contents {
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Card p {
+  color: #386641;
+  font-weight: bold;
+}
+
+.Card:hover {
+  background-color: #a7c957;
+  transform: translateY(20px);
+}
+
+/* .Card-Image {
+  width: 65%;
+} */
+
+.Reason {
+  margin-top: 2%;
+  width: 100%;
+  height: 50vh;
+  background-color: #386641;
+}
+
+.Reason-Card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.Reason-Contents h1 {
+  color: white;
+}
+
+.Reason-Points li {
+  font-size: 1.5em;
+  color: #a7c957;
+  font-weight: bold;
+}
+
+.Reason-Points {
+  padding-top: 3%;
+  padding-left: 0;
+  width: 70%;
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.Footer {
+  height: 40vh;
+  margin-top: 10%;
+}
+
+.Footer-Layer1 {
+  width: 100%;
+  height: 80%;
+  background-color: #386641;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Footer-Logo {
+  width: 30%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Footer-Logo img {
+  height: 100%;
+}
+
+.Social-Media {
+  width: 30%;
+  height: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+
+.Social-Media img {
+  width: 100%;
+}
+
+.Footer-Layer2 {
+  width: 100%;
+  height: 20%;
+  background-color: #a7c957;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Footer-Layer2 p {
+  color: #386641;
+  font-weight: bold;
+}
